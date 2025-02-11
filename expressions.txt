@@ -21,7 +21,7 @@ miscellaneous:Illustrative Example
 miscellaneous:Local History Connection to World History
 
 
-assorted_happening:Graham Bamboozled
+assorted_happening:Graham Baffled
 assorted_happening:Joel Has full Conversation with Mr. Welsch
 assorted_happening:Hunter Goes to the Bathroom
 assorted_happening:Andy is professional Geographer 
