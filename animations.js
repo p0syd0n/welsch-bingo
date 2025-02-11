@@ -2,20 +2,35 @@ document.addEventListener('DOMContentLoaded', function() {
   const cells = document.querySelectorAll('table td');
   let selectedCells = [];
   let bingoDetected = false;
-
+  let color_coding = {
+    "key_phrase": ["rgb(143 217 228)", "rgb(62 118 125)"],
+    "miscellaneous": ["rgb(160 228 143)", "rgb(87 152 71)"],
+    "assorted_happening": ["rgb(226 166 232)", "rgb(149 76 158)"]
+  };
+  function rgbToHex(rgb) {
+    let match = rgb.match(/\d+/g);
+    return match
+        ? "#" + match.map(x => parseInt(x).toString(16).padStart(2, '0')).join('')
+        : rgb;
+  }
   // Add click event to each cell
   cells.forEach((cell, index) => {
+    var label = cell.innerText.split(":")[0].trim().toLowerCase(); // assuming format "label:text"
+    cell.style.backgroundColor = color_coding[label][0]
+    cell.innerText = cell.innerText.split(":")[1];
+
       cell.addEventListener('click', function() {
+        if (rgbToHex(cell.style.backgroundColor) == rgbToHex(color_coding[label][0])) {
+            cell.style.backgroundColor = color_coding[label][1]
+            selectedCells.push(index);
+
+        } else {
+            cell.style.backgroundColor = color_coding[label][0]
+            selectedCells = selectedCells.filter(i => i !== index);
+
+        }
           if (bingoDetected) return;
 
-          // Toggle background color
-          if (cell.style.backgroundColor === 'green') {
-              cell.style.backgroundColor = ''; // Reset
-              selectedCells = selectedCells.filter(i => i !== index);
-          } else {
-              cell.style.backgroundColor = 'green';
-              selectedCells.push(index);
-          }
 
           // Check for Bingo
           if (checkBingo()) {
