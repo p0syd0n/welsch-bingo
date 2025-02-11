@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
               });
 
               document.getElementById('logContent').innerHTML = logContent;
+              document.getElementById('bingoLogBox').scrollTop = document.getElementById('bingoLogBox').scrollHeight;
           })
           .catch(error => {
               console.error('Error fetching bingo log:', error);

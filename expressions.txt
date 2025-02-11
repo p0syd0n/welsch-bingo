@@ -10,8 +10,6 @@ key_phrase:"So, (name), tell me a little more about (topic)."
 key_phrase:"I don't really care about that.”
 key_phrase:“Let's DISCUSS.”
 key_phrase: Welsch restates student idea
-
-
 miscellaneous:Trump Satire
 miscellaneous:Racism!
 miscellaneous:Russia does something strange
@@ -19,8 +17,6 @@ miscellaneous:Welsch doesn't care about mainstream topic
 miscellaneous:Cheese
 miscellaneous:Illustrative Example
 miscellaneous:Local History Connection to World History
-
-
 assorted_happening:Graham Baffled
 assorted_happening:Joel Has full Conversation with Mr. Welsch
 assorted_happening:Hunter Goes to the Bathroom
@@ -37,5 +33,3 @@ assorted_happening:Welsch and Stivi talk Albania
 assorted_happening:Welsch Standing Awkwardly in the Corner While we watch a video
 assorted_happening:Welsch Stands Menacingly over someone's desk
 assorted_happening:Welsch Tangent
-
-
