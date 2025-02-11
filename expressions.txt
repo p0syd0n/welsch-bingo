@@ -1,30 +1,41 @@
-e1
-e2
-e3
-e4
-e5
-e6
-e7
-e8
-e9
-e10
-e11
-e12
-e13
-e14
-e15
-e16
-e17
-e18
-e19
-e20
-e21
-e22
-e23
-e24
-e25
-e26
-e27
-e28
-e29
-e30
+
+key_phrase:"Okay People"
+key_phrase:"So how's everybody doing today?"
+key_phrase:"Great!"
+key_phrase:"Okay..."
+key_phrase:"Well anyways..."
+key_phrase:"WHO CARES!?"
+key_phrase:"But is that really true?"
+key_phrase:"So, (name), tell me a little more about (topic)."
+key_phrase:"I don't really care about that.”
+key_phrase:“Let's DISCUSS.”
+key_phrase: Welsch restates student idea
+
+
+miscellaneous:Trump Satire
+miscellaneous:Racism!
+miscellaneous:Russia does something strange
+miscellaneous:Welsch doesn't care about mainstream topic
+miscellaneous:Cheese
+miscellaneous:Illustrative Example
+miscellaneous:Local History Connection to World History
+
+
+assorted_happening:Graham Bamboozled
+assorted_happening:Joel Has full Conversation with Mr. Welsch
+assorted_happening:Hunter Goes to the Bathroom
+assorted_happening:Andy is professional Geographer 
+assorted_happening:Welsch standing in the middle of the room taking attendance on his laptop
+assorted_happening:Welsch waiting impatiently for morning announcements
+assorted_happening:Welsch reveals strange habit
+assorted_happening:Welsch staring wide-eyed at Chromebook screen
+assorted_happening:Welsch is Wearing a vest
+assorted_happening:Welsch Haircut
+assorted_happening:Welsch targets a poor student
+assorted_happening:Welsch Crashes Out
+assorted_happening:Welsch and Stivi talk Albania
+assorted_happening:Welsch Standing Awkwardly in the Corner While we watch a video
+assorted_happening:Welsch Stands Menacingly over someone's desk
+assorted_happening:Welsch Tangent
+
+
