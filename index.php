@@ -99,6 +99,9 @@ td:hover {
   </head>
   <body>
       <h1>Welsch Bingo</h1>
+      <p style="background-color: rgb(143 217 228); color:black">Key Phrases</p>
+      <p style="background-color: rgb(160 228 143); color:black">Miscellaneous</p>
+      <p style="background-color: rgb(226 166 232); color:black">Assorted Happenings</p>
       <hr>
       <table>
           <?php 
